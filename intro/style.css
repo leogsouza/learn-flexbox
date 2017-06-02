@@ -26,3 +26,9 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box8 { background:#bdc3c7;}
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
+
+.container {
+  display: flex;
+  border: solid 10px goldenrod;
+  height: 100vh;
+}
