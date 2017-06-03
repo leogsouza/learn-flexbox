@@ -28,3 +28,16 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box10 { background:#16a085;}
 
 /* Flexbox styles starts here */
+.container {
+  display: flex;
+}
+
+.box {
+  flex: 1;
+}
+.box2 {
+  flex: 2;
+}
+.box5 {
+  flex: 3
+}
