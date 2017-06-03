@@ -9,7 +9,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* Some default styles to make each box visible */
 .box {
   color:white;
-  font-size: 20px;
+  font-size: 50px;
   text-align: center;
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
@@ -30,8 +30,24 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* Flexbox style starts here */
 .container{
   display: flex;
-  justify-content: space-between; /* flex-start option is default */
+  align-items: center;
   border: 10px solid mistyrose;
-  flex-direction: column;
   min-height: 100vh;
+  flex-direction: column;
+}
+
+.box1 {
+  font-size: 30px;
+}
+.box3 {
+  font-size: 150px;
+}
+.box4 {
+  font-size: 200px;
+}
+.box5 {
+  font-size: 10px;
+}
+.box10 {
+  font-size: 77px;
 }
